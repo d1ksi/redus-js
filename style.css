@@ -1,0 +1,129 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  h2 {
+    font-size: 50px;
+    color: rgb(13, 14, 13);
+  }
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+  }
+  header .kassa{
+    font-size: 30px;
+  }
+  main {
+    display: flex;
+    margin-left: 20px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+  }
+  .contentbody{
+    display: flex;
+  }
+#allinfo{
+  margin: 15px;
+  font-size: 26px;
+  color: rgb(19, 0, 36);
+}
+ .goods1 {
+   text-align: center;
+   font-family: 'Alegreya Sans', sans-serif;
+   font-size: 20px;
+ }
+ 
+ #place1,
+ #place2,
+ #place3 {
+   font-size: 46px;
+   font-weight: bold;
+ }
+ 
+ #place1Price,
+ #place2Price,
+ #place3Price {
+   font-size: 46px;
+   font-weight: bold;
+ }
+ .card {
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   flex-basis: calc(100% / 3 - 15px);
+   min-width: 230px;
+   height: 350px;
+   align-items: center;
+   border: 0px solid rgb(200, 200, 200);
+   border-radius: 20px;
+   padding: 15px;
+   margin-bottom: 15px;
+   transition: ease-out 0.5s;
+ }
+ .card div:nth-child(2) {
+   margin-bottom: 15px;
+ }
+ .card div:nth-child(3) {
+   flex-grow: 1;
+   text-align: center;
+   margin-bottom: 15px;
+ }
+ .card div:nth-child(4) button {
+   background-color: rgb(104, 81, 116);
+   border: 3px solid rgb(104, 81, 116);
+   width: 70px;
+   color: white;
+   font-size: 26px;
+   font-weight: bold;
+   border-radius: 20px;
+   cursor: pointer;
+   transition: ease-out 0.3s;
+   box-shadow: 0.2em 0.2em 0px rgba(122, 122, 122, 0.6);
+ }
+ .card div:nth-child(4) button:active {
+   background-color: rgb(155, 121, 173);
+   border: 3px solid rgb(155, 121, 173);
+   box-shadow: none;
+ }
+ .storemain {
+   margin-top: 10px;
+   border: 3px, solid, black;
+   display: flex;
+   justify-content: space-between;
+ }
+    .buybutton {
+  margin: 30px;
+  }
+  #buyIt {
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+  #buyIt:active {
+    box-shadow: none;
+  }
+  #goods,
+  #amountOfGoods,
+  #money {
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+  }

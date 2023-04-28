@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+   <meta charset="utf-8">
+   <title>KIOSK</title>
+   <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <header>
+      <div class="kassa">
+         <span>Касса:</span>
+         <span id="cashLeft"></span>
+      </div>
+   </header>
+   <main>
+      <section class="content">
+         <section class="contentbody">
+            <div class="card card1">
+               <div class="goods1">
+                  <h2>beer</h2>
+                  <br>
+                  <span id="beerLeft"></span><span>шт /&nbsp</span>
+                  <span id="beerPrice"></span><span>uah</span>
+               </div>
+               <div>
+                  <p>
+                  </p>
+               </div>
+            </div>
+            <div class="card card2">
+               <div class="goods1">
+                  <h2>chips</h2>
+                  <br>
+                  <span id="chipsLeft"></span><span>шт /&nbsp</span>
+                  <span id="chipsPrice"></span><span>uah</span>
+               </div>
+               <div>
+                  <p>
+                  </p>
+               </div>
+            </div>
+            <div class="card card3">
+               <div class="goods1">
+                  <h2>sigi</h2>
+                  <br>
+                  <span id="sigiLeft"></span><span>шт. /&nbsp</span>
+                  <span id="sigiPrice"></span><span>uah</span>
+               </div>
+               <div>
+                  <p>
+                  </p>
+               </div>
+            </div>
+         </section>
+         <div class="storemain">
+            <select id="goods">
+            </select>
+            <input type="text" id="amountOfGoods" placeholder="Кол. ШТ">
+            <input type="text" id="money" placeholder="Оплата">
+         </div>
+         <div class="buybutton">
+            <p id="allinfo"></p>
+            <input type="button" id="buyIt" value="Купить">
+         </div>
+      </section>
+   </main>
+   <footer></footer>
+   <script src="./script.js"></script>
+</body>
+
+</html>
